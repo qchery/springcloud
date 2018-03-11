@@ -3,4 +3,5 @@ include 'springcloud-eureka-client'
 include 'springcloud-config-server'
 include 'springcloud-config-client'
 include 'springcloud-hystrix'
+include 'springcloud-hystrix-dashboard'
 
