@@ -7,4 +7,5 @@ include 'springcloud-hystrix-dashboard'
 include 'springcloud-feign'
 include 'springcloud-ribbon'
 include 'springcloud-zuul'
+include 'springcloud-stream'
 
