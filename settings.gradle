@@ -8,4 +8,6 @@ include 'springcloud-feign'
 include 'springcloud-ribbon'
 include 'springcloud-zuul'
 include 'springcloud-stream'
+include 'springcloud-sleuth-server'
+include 'springcloud-sleuth-client'
 
