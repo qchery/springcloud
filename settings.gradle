@@ -10,4 +10,5 @@ include 'springcloud-zuul'
 include 'springcloud-stream'
 include 'springcloud-sleuth-server'
 include 'springcloud-sleuth-client'
+include 'springcloud-consul'
 
