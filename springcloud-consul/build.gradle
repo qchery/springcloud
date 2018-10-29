@@ -1,5 +1,10 @@
 dependencies {
     compile(
-            "org.springframework.cloud:spring-cloud-starter-consul-discovery"
+            "org.springframework.cloud:spring-cloud-starter-consul-discovery",
+            "org.springframework.boot:spring-boot-starter-actuator"
     )
+}
+
+jar {
+    exclude 'bootstrap.yml'
 }

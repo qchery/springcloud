@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    consul:
+      host: 172.29.1.221
+      port: 8500
+      discovery:
+        hostname: 172.29.3.103
+        prefer-ip-address: true
+        health-check-url: http://${spring.cloud.consul.discovery.hostname}:${server.port}/health
+  application:
+    name: consul-client
